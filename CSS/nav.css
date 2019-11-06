@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #011627;
+}
+
+.header .title {
+	width: 50%;
+	min-height: 200px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.header .title h3{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2EC4B6;
+}
+
+.header .title h3 a{
+	text-decoration: none;
+	color: #2EC4B6;
+
+}

@@ -1,0 +1,251 @@
+body{
+	background-color: #E1E9EA;
+	font-family: sans-serif;
+}
+
+.top{
+	width: 100%;
+	height: 10px;
+	background-color: #706F6F;
+	margin: 0 auto;
+}
+
+/*HEADER STYLING*/
+
+.header{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #F7F5F5;
+}
+
+.inner-header{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #F7F5F5;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+}
+
+.inner-header img{
+	float: left;
+	margin-right: 30px;
+}
+
+.inner-header h1{
+	font-family: sans-serif;
+	color: #474646;
+	padding-left: 20px;
+	font-size: 35px;
+}
+
+.inner-header h4{
+	color: #474646;
+	font-family: serif;
+	padding-top: -10px;
+}
+
+.inner-header i{
+	font-size: 35px;
+	color: #ADA8A8;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.inner-header a{
+	font-family: sans-serif;
+	color: #fff;
+	border: 2px solid #0FAA25;
+	background-color: #0FAA25;
+	text-decoration: none;
+	padding: 5px 10px;
+	float: right;
+	margin-top: -70px;
+	overflow: auto;
+}
+
+
+/*ADVERTISEMENT*/
+
+.advert{
+	width: 100%;
+	margin: auto;
+	background-color: blue;
+}
+
+.advert1{
+	width: 1100px;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+.content{
+	width: 45%;
+	min-height: 300px;
+	float: left;
+	color: #fff;
+	padding-top: 115px;
+	padding-left: 50px;
+	/*animation-timing-function: ease-in;*/
+	animation-timing-function: cubic-bezier(0.25,0.25,0.75,0.75);
+}
+
+.content h1{
+	font-size: 50px;
+}
+
+
+/*IMAGE ANIMATION*/
+
+#image {
+    border-radius: 60%;
+    background: linear-gradient(
+      35deg,
+      blue,
+      #ffffff
+    );
+    animation-name: fade;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    right:50%;
+  }
+
+  @keyframes fade {
+    50% {
+      left: 60%;
+      opacity: 0.2;
+      
+    }
+  }
+
+  /*END OF IMAGE ANIMATION*/
+
+/*CONTAINER WRAPPING THE OTHER CONTAINERS*/
+
+.containers-wrapper{
+	width: 1100px;
+	margin: auto;
+	background-color: pink;
+}
+
+
+/*ABOUT US */
+
+.about-us{
+	width: 63%;
+	padding: 2%;
+	margin: auto;
+	float: left;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+/*OUR PRODUCTS*/
+
+.our-products1{
+	width: 63%;
+	padding: 2%;
+	margin: auto;
+	float: left;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+.our-products1 .product-image1{
+	width: 40%;
+	float: left;
+}
+
+.our-products1 .product-content1{
+	width: 60%;
+	float: left;
+	padding-bottom: 60px;
+}
+
+.our-products1 .product-content1 h3 a{
+	text-decoration: none;
+}
+
+.our-products1 .product-content1 a{
+	color:#077F93 ;
+}
+
+.our-products1 .product-content1 a:hover{
+	color: green;
+}
+
+/*CONTACT US*/
+
+.contact-us{
+	width: 23%;
+	padding: 3%;
+	margin: auto;
+	float: right;
+	background-color: white;
+	margin-left: 4%;
+}
+
+.contact-us a{
+	border: 2px solid blue;
+	padding: 10px 20px 10px 20px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 7px;
+	margin-left: 60px;
+}
+
+/*GOOGLE MAP*/
+.google-map{
+	width: 23%;
+	padding: 3%;
+	margin: auto;
+	float: right;
+	background-color: white;
+	margin-left: 4%;
+	margin-bottom: 30px;
+	margin-top: -140px;
+}
+
+#clip{
+	margin-top: 25px;
+	margin-right: 40px;
+	width: 250px;
+	height: 35px;
+}
+
+/*TESTIMONIALS*/
+
+.testimonials{
+	width: 23%;
+	padding: 3%;
+	margin: auto;
+	float: right;
+	background-color: white;
+	margin-left: 4%;
+	padding-bottom: 65px;
+	margin-bottom: 30px;
+}
+
+#bold{
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*FOOT*/
+
+.foot{
+	width: 100%;
+	margin: auto;
+	color: #ACADAD;
+	background-color: #474747;
+	float: left;
+}
+
+
+
+
+
+

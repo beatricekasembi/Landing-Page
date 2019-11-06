@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #011627;
+}
+
+/*TITLE*/
+.title{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.title h1{
+  font-size: 60px;
+  color: #fff;
+  font-family: Trebuchet MS;
+  text-align: center;
+  margin: 0px auto ;
+  display: block;
+}
+
+.title p{
+  font-size: 30px;
+  font-family: mistral;
+  color: #2EC4B6;
+  text-align: center;
+  padding: 10px 20px ;
+  text-decoration: none;
+  margin: 0px auto ;
+  margin-top: -25px;
+  display: table;
+}
+
+
+/*NAVIGATION BAR*/
+.navbar{
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+}
+.inner-nav{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #011627;
+}
+.navmenu{
+  width: 20%;
+  height: 50px;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+.navmenu ul{
+  float: right;
+  margin-right: 55px;
+}
+.navmenu li{
+  float: left;
+  list-style: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 20px; 
+}
+.navmenu ul li a{
+  text-decoration: none;
+  color: #011627;
+}
+.navmenu ul li a:hover{
+  color: #2EC4B6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

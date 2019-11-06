@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*NAVIGATION MENU*/
+.navmenu{
+	width: 88%;
+	min-height: 50px;
+	margin: 0 auto;
+}
+.navmenu ul{
+  float: right;
+  margin-right: 55px;
+}
+.navmenu li{
+  float: left;
+  list-style: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 20px; 
+}
+.navmenu ul li a{
+  text-decoration: none;
+  color: #011627;
+}
+.navmenu ul li a:hover{
+	color: #2EC4B6;
+}
+
+
+/*WORK*/
+
+.work{
+	overflow: auto;
+	width: 88%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.img1{
+	width: 49%;
+	min-height: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-right: 4%;
+}
+.img2{
+	width: 47%;
+	min-height: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.img3{
+	width: 49%;
+	min-height: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-right: 4%;
+	margin-top: 70px;
+}
+.img4{
+	width: 47%;
+	min-height: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.panel{
+	float: left;
+}
+.img1 img{
+	width: 100%;
+	min-height: 410px;
+}
+.img2 .image{
+	width: 100%;
+	min-height: 410px;
+}
+.img3 .image{
+	width: 100%;
+	min-height: 300px;
+}
+.img4 img{
+	width: 100%;
+	min-height: 350px;
+}
+
+.title{
+	font-family: sans-serif;
+	font-size: 28px;
+	color: #011627;
+}
+
+.p-tag{
+	font-family: mistral;
+	font-size: 26px;
+	color: #2EC4B6;
+	margin-top: -35px;
+}
+
+.details{
+	font-family: serif;
+	font-size: 18px;
+	color: #011627;
+}
+
+.tools{
+	font-family: sans-serif;
+	text-transform: italic;
+	font-weight: bold;
+	font-size: 14px;
+	color: #011627;
+}
+
+.view-more{
+	width: 140px;
+	min-height: 25px;
+	background-color: black; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.view-more h3 a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #2EC4B6;
+	padding-left: 8px;
+	padding-bottom: -20px;
+}
+
+/*FOOTER*/
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	min-height: 60px;
+	background-color: #011627;
+	margin-top: 150px;
+	bottom: 0px;
+	overflow: auto
+}
+
+.footer .footer-info{
+	width: 700px;
+	min-height: 60px;
+	margin: 0 auto;
+}
+
+.footer .footer-info h4{
+	float: left;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer .footer-info h4 a{
+	color: #fff;
+}
+
+
